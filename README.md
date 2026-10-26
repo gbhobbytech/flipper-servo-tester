@@ -1,4 +1,5 @@
 # Servo Tester for Flipper Zero
+![Servo Tester main screen](screenshots/Screenshot-20261026-153137.png)
 
 This version combines the uploaded app's mode-and-angle layout with a short wiring screen and automatic control of the GPIO 5 V rail.
 
