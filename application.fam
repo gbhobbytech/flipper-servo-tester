@@ -1,6 +1,6 @@
 App(
-    appid="servotesterapp",
-    name="Servo Tester",
+    appid="gbhobbytech_servo_tester",
+    name="Servo Tester+",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="servotesterapp_app",
     stack_size=3 * 1024,

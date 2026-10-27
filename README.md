@@ -22,7 +22,7 @@ The app enables Flipper's GPIO 5 V rail when needed, and turns it off on exit on
 
 ## Build and install
 
-The included `.fap` was built with the official Flipper firmware SDK 1.5.1 (API 88.2). Copy `servotesterapp.fap` to the SD card at `apps/GPIO/`, replacing the earlier Servo Tester app, then open **Apps → GPIO → Servo Tester**. If Flipper reports an SDK mismatch, update its firmware or rebuild the source against the SDK on the device.
+The included `.fap` was built with the official Flipper firmware SDK 1.5.1 (API 88.2). Copy `gbhobbytech_servo_tester.fap` to the SD card at `apps/GPIO/`, installing it as a separate app, then open **Apps → GPIO → Servo Tester**. If Flipper reports an SDK mismatch, update its firmware or rebuild the source against the SDK on the device.
 
 To rebuild from this folder, install `ufbt` and run:
 
