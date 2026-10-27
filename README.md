@@ -31,3 +31,17 @@ ufbt
 ```
 
 The upstream Servo Tester app is by M. Hasbini and is MIT licensed. This adaptation keeps the mode-and-angle interface and adds wiring help, managed 5 V output and a longer sweep dwell.
+
+## Testing feedback
+
+Servo travel varies between models. With the author's MG90S, version 0.5 currently gives about 90 degrees of physical travel.
+
+If you test Servo Tester, please [open a GitHub issue](https://github.com/gbhobbytech/flipper-servo-tester/issues/new) and include:
+
+- Servo make and model
+- Flipper firmware version
+- Power source: Flipper 5 V pin or external supply
+- Approximate travel at the app's 0 and 180 degree settings
+- Any buzzing, stalling or other unusual behaviour
+
+Avoid holding a servo against its mechanical end stops.
